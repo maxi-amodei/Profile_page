@@ -52,7 +52,7 @@ border-radius: 50%;
 }
 
 .list-inline > li {
-  display: inline-block;
+  display: flex;
   padding: 0px 7px;
 }
 
