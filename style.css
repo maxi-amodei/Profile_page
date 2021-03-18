@@ -1,5 +1,9 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -15,7 +19,9 @@ color: #3F3843;
 .img-circle{
 border-radius: 50%;
 }
-
+.fab{
+  color: #551A8B;
+}
 .btn-grey{
   font-weight: bold;
   text-decoration: none;
@@ -45,15 +51,13 @@ border-radius: 50%;
   box-shadow: 0 10px 30px rgba(0,0,0,.2);
   border: 1px solid #F3E4BA;
 }
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
+a{
+  color: #3F3843;
+  font-weight: bold;
 }
-
-.list-inline > li {
-  display: flex;
-  padding: 0px 7px;
+a:hover{
+  text-decoration: none;
+  color: rgb(235, 112, 25);
 }
 
 i {

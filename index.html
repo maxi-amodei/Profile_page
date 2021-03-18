@@ -1,61 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Profile</title>
 </head>
+
 <body>
   <div class="container">
     <div class="card-white" id="introduction">
       <h1>Hello, I'm Maxi 😎</h1>
-      <img src="images/maxi.jpg" class="img-circle" width="150px" alt="Maxi Amodei">
+      <img src="images/maxi.jpg" class="img-circle pb-2" width="150px" alt="Maxi Amodei">
       <p>
-        I started programming in mid 2020 and decided to join a coding bootcamp 💻 in 2021. That's how I found Le Wagon and learned to code web aplications in order to make a career shift 👷.
+        I started programming in mid 2020 and decided to join a coding bootcamp 💻 in 2021. That's how I found Le Wagon
+        and learned to code web aplications in order to make a career shift 👷.
       </p>
-      <a href="https://www.lewagon.com/es" target="_blank" class="btn-grey">Discover Le Wagon</a>
+      <a href="#work" class="btn-grey scroll-link">Discover some of my work</a>
     </div>
     <div class="card-white">
-      <h2>Frontend Development 💻</h2>
+      <h2> Skills 📚 </h2>
       <p>
-        Frontend languages and tools such as <strong>HTML, CSS, Bootstrap</strong>.
+        <strong>Frontend </strong>languages and tools such as <strong>HTML, CSS, Bootstrap</strong>.
+      </p>
+      <p>
+        <strong>Backend</strong> languages, frameworks and tools such as <strong>Ruby, Ruby on Rails, Javascript, SQL
+          Postgresql</strong>.
+      </p>
+      <p>
+        I have a background in <strong>Economics & Finance</strong> 📈 and used to work in <strong>Planning and
+          Accounting</strong> for
+        about 2.5 years.
       </p>
     </div>
     <div class="card-white">
-      <h2>Backend Development 💻</h2>
+      <h2>Objectives 🎯</h2>
       <p>
-        Backend languages, frameworks and tools such as <strong>Ruby, Ruby on Rails, SQL, Javascript, JQuery & AJAX</strong>.
+        I’m currently <strong>learning</strong> 🌱 more about RoR, React, JS & Computer Science
       </p>
+      <p>
+        I’m looking to <strong>collaborate</strong> 👯 on fullstack projects in a team to boost my skills
+      </p>
+    </div>
+    <div class="card-white" id="work">
+      <h2> Mini-projects 💻</h2>
+      <p class="mb-1">Some <strong>small proyects</strong> in <strong>vanilla JS </strong>I managed to <strong>self
+          taught </strong>to myself during 2020 without CS previus background with help and guidance from
+        Books, Youtube and Google:</p>
+      <ul class="list-group list-group-sm justify-content-center">
+        <li class="list-group-item border-0 bg-transparent p-1">
+          <a href="https://expense-tracker-vjs.herokuapp.com/" target="_blank"> An Expense tracker using
+            Local-Storage</a>
+        </li>
+        <li class="list-group-item border-0 bg-transparent p-1">
+          <a href="https://snake-game-vjs.herokuapp.com/" target="_blank"> Simple Snake Game</a>
+        </li>
+        <li class="list-group-item border-0 bg-transparent p-1">
+          <a href="https://pong-game-vjs.herokuapp.com/" target="_blank">Simple Pong Game</a>
+        </li>
+        <li class="list-group-item border-0 bg-transparent p-1">
+          <a href="https://battleship-vjs.herokuapp.com/" target="_blank">Battleship</a>
+        </li>
+        <li class="list-group-item border-0 bg-transparent p-1">
+          <a href="https://rock-paper-scissors-vjs.herokuapp.com/" target="_blank">Rock Paper Scissors</a>
+        </li>
+      </ul>
     </div>
     <div class="card-white">
-      <h2>Economics & Finance 📈 </h2>
-      <p>
-        I have a background in economics and used to work in <strong>Planning and Accounting</strong> for about 2.5 years.
-      </p>
+      <h2> Full stack 💻</h2>
+      <p class="mb-1"> Full stack proyects made during <strong>Bootcamp</strong>:</p>
+      <ul class="list-group list-group-sm justify-content-center">
+        <li class="list-group-item border-0 bg-transparent p-1">
+          <a href="https://clone-airbnb.herokuapp.com/" target="_blank"> Youtube content Manager (9 days work)</a>
+        </li>
+        <li class="list-group-item border-0 bg-transparent p-1">
+          <a href="https://mediapartner.herokuapp.com/" target="_blank"> AirBnB clone (5 days work)</a>
+        </li>
+      </ul>
     </div>
+
     <div class="card-white">
       <h2>Follow me</h2>
-      <ul class="list-inline">
-        <li>
+      <ul class="list-group list-group-horizontal-sm justify-content-center">
+        <li class="list-group-item border-0 bg-transparent">
           <a href="https://github.com/maxi-amodei" target="_blank">
-            <i class="fab fa-github-square fa-3x"></i>
+            <i class="fab fa-github-square fa-2x"></i>
           </a>
         </li>
-        <li>
+        <li class="list-group-item border-0 bg-transparent">
           <a href="https://www.linkedin.com/in/maximiliano-amodei-b7683773/" target="_blank">
-            <i class="fab fa-linkedin fa-3x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
           </a>
         </li>
-        <li>
+        <li class="list-group-item border-0 bg-transparent">
           <a href="https://twitter.com/MaxiAmodei" target="_blank">
-            <i class="fab fa-twitter-square fa-3x"></i>
+            <i class="fab fa-twitter-square fa-2x"></i>
           </a>
         </li>
       </ul>
     </div>
   </div>
+  <script>
+    // Define selector for selecting 
+    // anchor links with the hash 
+    let anchorSelector = 'a[href^="#"]';
+
+    // Collect all such anchor links 
+    let anchorList =
+      document.querySelectorAll(anchorSelector);
+
+    // Iterate through each of the links 
+    anchorList.forEach(link => {
+      link.onclick = function (e) {
+
+        // Prevent scrolling if the 
+        // hash value is blank 
+        e.preventDefault();
+
+        // Get the destination to scroll to 
+        // using the hash property 
+        let destination =
+          document.querySelector(this.hash);
+
+        // Scroll to the destination using 
+        // scrollIntoView method 
+        destination.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    });
+  </script>
 </body>
+
 </html>
